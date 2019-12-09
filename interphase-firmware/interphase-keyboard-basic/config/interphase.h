@@ -54,7 +54,7 @@
 				1<<R_C05  | \
 				1<<R_C06  | \
 				1<<R_C07  | \
-				1<<R_C08
+				1<<R_C08)
 
 #ifdef COMPILE_LEFT
 
