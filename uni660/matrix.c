@@ -109,7 +109,7 @@ uint8_t matrix_scan(void)
 
     //check for the end packet, the key state bytes use the LSBs, so 0xE0
     //will only show up here if the correct bytes were recieved
-    if (uart_data[16] == 0xE0)
+    if (uart_data[10] == 0xE0)
     {
         //shifting and transferring the keystates to the QMK matrix variable
         for (uint8_t i = 0; i < MATRIX_ROWS; i++) {
