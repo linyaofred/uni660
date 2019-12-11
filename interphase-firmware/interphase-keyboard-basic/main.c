@@ -72,7 +72,6 @@ static uint8_t read_row(uint32_t row)
     buff = (buff << 1) | ((input >> C06) & 1);
     buff = (buff << 1) | ((input >> C07) & 1);
     buff = (buff << 1) | ((input >> C08) & 1);
-    buff = (buff << 1);
     nrf_gpio_pin_clear(row);
     return buff;
 }
