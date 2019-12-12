@@ -45,8 +45,8 @@ OPT_DEFS += -DINTERRUPT_CONTROL_ENDPOINT
 # Build Options
 #   comment out to disable the options.
 #
-BOOTMAGIC_ENABLE = lite	# Virtual DIP switch configuration(+1000)
-MOUSEKEY_ENABLE = no	# Mouse keys(+4700)
+#BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration(+1000)
+MOUSEKEY_ENABLE = yes	# Mouse keys(+4700)
 EXTRAKEY_ENABLE = yes	# Audio control and System control(+450)
 CONSOLE_ENABLE = yes	# Console for debug(+400)
 COMMAND_ENABLE = yes   # Commands for debug and configuration
@@ -71,3 +71,5 @@ MITOSIS_UPLOAD_COMMAND = while [ ! -r $(USB) ]; do sleep 1; done; \
 
 # # project specific files
 SRC = matrix.c
+
+VIA_ENABLE = yes

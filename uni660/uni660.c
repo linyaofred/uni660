@@ -19,6 +19,7 @@ void matrix_init_kb(void) {
 	led_init();
 }
 
+/*
 #ifdef SWAP_HANDS_ENABLE
 __attribute__ ((weak))
 const keypos_t hand_swap_config[MATRIX_ROWS][MATRIX_COLS] = {
@@ -29,3 +30,4 @@ const keypos_t hand_swap_config[MATRIX_ROWS][MATRIX_COLS] = {
 {{9, 4}, {8, 4}, {7, 4}, {6, 4}, {5, 4}, {4, 4}, {3, 4}, {2, 4}, {1, 4}, {0, 4}},
 };
 #endif
+*/
