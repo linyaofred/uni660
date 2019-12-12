@@ -22,9 +22,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x1011
-#define DEVICE_VER      0x1912
+#define VENDOR_ID       0x5352			// "SR"
+#define PRODUCT_ID      0x0201			// Second Product First Version
+#define DEVICE_VER      0x1912			// 2019.12
 #define MANUFACTURER    SiRius
 #define PRODUCT         Uni660
 #define DESCRIPTION     wireless split keyboard by SiRius
