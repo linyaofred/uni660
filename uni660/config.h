@@ -26,8 +26,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0201			// Second Product First Version
 #define DEVICE_VER      0x1912			// 2019.12
 #define MANUFACTURER    SiRius
-#define PRODUCT         Uni660
-#define DESCRIPTION     wireless split keyboard by SiRius
+#define PRODUCT         SiRius Uni660
+#define DESCRIPTION     SiRius Uni660
 
 /* key matrix size */
 #define MATRIX_ROWS 5
