@@ -72,4 +72,7 @@ MITOSIS_UPLOAD_COMMAND = while [ ! -r $(USB) ]; do sleep 1; done; \
 # # project specific files
 SRC = matrix.c
 
-VIA_ENABLE = yes
+SRC += keyboards/wilba_tech/wt_main.c
+
+RAW_ENABLE = yes
+DYNAMIC_KEYMAP_ENABLE = yes
